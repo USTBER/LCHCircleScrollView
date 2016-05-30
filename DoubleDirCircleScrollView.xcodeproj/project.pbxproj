@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188D32F01CF6C5A300537971 /* LCHCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D32EF1CF6C5A300537971 /* LCHCircleView.m */; };
+		188D32F61CF6CD2900537971 /* LCHCircleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D32F51CF6CD2900537971 /* LCHCircleCell.m */; };
+		188D33291CF6E83A00537971 /* UIColor+LCHRandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D33261CF6E83A00537971 /* UIColor+LCHRandomColor.m */; };
+		188D332A1CF6E83A00537971 /* UIView+LCHProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D33281CF6E83A00537971 /* UIView+LCHProperty.m */; };
+		188D332E1CF8363B00537971 /* LCHPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D332D1CF8363B00537971 /* LCHPageControl.m */; };
+		18E6E84A1CF6A32D0081C108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E8491CF6A32D0081C108 /* main.m */; };
+		18E6E84D1CF6A32D0081C108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E84C1CF6A32D0081C108 /* AppDelegate.m */; };
+		18E6E8501CF6A32D0081C108 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E84F1CF6A32D0081C108 /* ViewController.m */; };
+		18E6E8531CF6A32D0081C108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E6E8511CF6A32D0081C108 /* Main.storyboard */; };
+		18E6E8561CF6A32D0081C108 /* DoubleDirCircleScrollView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E6E8541CF6A32D0081C108 /* DoubleDirCircleScrollView.xcdatamodeld */; };
+		18E6E8581CF6A32D0081C108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E6E8571CF6A32D0081C108 /* Assets.xcassets */; };
+		18E6E85B1CF6A32D0081C108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E6E8591CF6A32D0081C108 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188D32EE1CF6C5A300537971 /* LCHCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHCircleView.h; sourceTree = "<group>"; };
+		188D32EF1CF6C5A300537971 /* LCHCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCHCircleView.m; sourceTree = "<group>"; };
+		188D32F41CF6CD2900537971 /* LCHCircleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHCircleCell.h; sourceTree = "<group>"; };
+		188D32F51CF6CD2900537971 /* LCHCircleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCHCircleCell.m; sourceTree = "<group>"; };
+		188D33241CF6E83A00537971 /* LCHLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHLog.h; sourceTree = "<group>"; };
+		188D33251CF6E83A00537971 /* UIColor+LCHRandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LCHRandomColor.h"; sourceTree = "<group>"; };
+		188D33261CF6E83A00537971 /* UIColor+LCHRandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LCHRandomColor.m"; sourceTree = "<group>"; };
+		188D33271CF6E83A00537971 /* UIView+LCHProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LCHProperty.h"; sourceTree = "<group>"; };
+		188D33281CF6E83A00537971 /* UIView+LCHProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LCHProperty.m"; sourceTree = "<group>"; };
+		188D332B1CF6E85200537971 /* Common.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.pch; sourceTree = "<group>"; };
+		188D332C1CF8363B00537971 /* LCHPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHPageControl.h; sourceTree = "<group>"; };
+		188D332D1CF8363B00537971 /* LCHPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCHPageControl.m; sourceTree = "<group>"; };
+		188D332F1CF8541700537971 /* LCHCircleViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCHCircleViewDelegate.h; sourceTree = "<group>"; };
+		18E6E8451CF6A32D0081C108 /* DoubleDirCircleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleDirCircleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E6E8491CF6A32D0081C108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E6E84B1CF6A32D0081C108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E6E84C1CF6A32D0081C108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E6E84E1CF6A32D0081C108 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E6E84F1CF6A32D0081C108 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E6E8521CF6A32D0081C108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E6E8551CF6A32D0081C108 /* DoubleDirCircleScrollView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoubleDirCircleScrollView.xcdatamodel; sourceTree = "<group>"; };
+		18E6E8571CF6A32D0081C108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E6E85A1CF6A32D0081C108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E6E85C1CF6A32D0081C108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E6E8421CF6A32D0081C108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188D32F71CF6CDBB00537971 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Catagory;
+			sourceTree = "<group>";
+		};
+		188D32F81CF6CDE400537971 /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+				188D332F1CF8541700537971 /* LCHCircleViewDelegate.h */,
+			);
+			name = Protocal;
+			sourceTree = "<group>";
+		};
+		188D32FA1CF6CE0D00537971 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				188D332B1CF6E85200537971 /* Common.pch */,
+				188D33241CF6E83A00537971 /* LCHLog.h */,
+				188D33251CF6E83A00537971 /* UIColor+LCHRandomColor.h */,
+				188D33261CF6E83A00537971 /* UIColor+LCHRandomColor.m */,
+				188D33271CF6E83A00537971 /* UIView+LCHProperty.h */,
+				188D33281CF6E83A00537971 /* UIView+LCHProperty.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		18E6E83C1CF6A32D0081C108 = {
+			isa = PBXGroup;
+			children = (
+				18E6E8471CF6A32D0081C108 /* DoubleDirCircleScrollView */,
+				18E6E8461CF6A32D0081C108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E6E8461CF6A32D0081C108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E6E8451CF6A32D0081C108 /* DoubleDirCircleScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E6E8471CF6A32D0081C108 /* DoubleDirCircleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				18E6E8651CF6A5800081C108 /* Class */,
+				18E6E8621CF6A5660081C108 /* Tool */,
+				18E6E8641CF6A5750081C108 /* Resource */,
+				18E6E8631CF6A5700081C108 /* Other */,
+				18E6E8481CF6A32D0081C108 /* Supporting Files */,
+			);
+			path = DoubleDirCircleScrollView;
+			sourceTree = "<group>";
+		};
+		18E6E8481CF6A32D0081C108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E6E8491CF6A32D0081C108 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E6E8621CF6A5660081C108 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				188D32FA1CF6CE0D00537971 /* Common */,
+				188D32F81CF6CDE400537971 /* Protocal */,
+				188D32F71CF6CDBB00537971 /* Catagory */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		18E6E8631CF6A5700081C108 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				18E6E84B1CF6A32D0081C108 /* AppDelegate.h */,
+				18E6E84C1CF6A32D0081C108 /* AppDelegate.m */,
+				18E6E8511CF6A32D0081C108 /* Main.storyboard */,
+				18E6E8591CF6A32D0081C108 /* LaunchScreen.storyboard */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		18E6E8641CF6A5750081C108 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				18E6E8571CF6A32D0081C108 /* Assets.xcassets */,
+				18E6E85C1CF6A32D0081C108 /* Info.plist */,
+				18E6E8541CF6A32D0081C108 /* DoubleDirCircleScrollView.xcdatamodeld */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		18E6E8651CF6A5800081C108 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				18E6E8681CF6A58E0081C108 /* Controller */,
+				18E6E8671CF6A58A0081C108 /* View */,
+				18E6E8661CF6A5850081C108 /* Model */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		18E6E8661CF6A5850081C108 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18E6E8671CF6A58A0081C108 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				188D32EE1CF6C5A300537971 /* LCHCircleView.h */,
+				188D32EF1CF6C5A300537971 /* LCHCircleView.m */,
+				188D32F41CF6CD2900537971 /* LCHCircleCell.h */,
+				188D32F51CF6CD2900537971 /* LCHCircleCell.m */,
+				188D332C1CF8363B00537971 /* LCHPageControl.h */,
+				188D332D1CF8363B00537971 /* LCHPageControl.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		18E6E8681CF6A58E0081C108 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18E6E84E1CF6A32D0081C108 /* ViewController.h */,
+				18E6E84F1CF6A32D0081C108 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E6E8441CF6A32D0081C108 /* DoubleDirCircleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E6E85F1CF6A32D0081C108 /* Build configuration list for PBXNativeTarget "DoubleDirCircleScrollView" */;
+			buildPhases = (
+				18E6E8411CF6A32D0081C108 /* Sources */,
+				18E6E8421CF6A32D0081C108 /* Frameworks */,
+				18E6E8431CF6A32D0081C108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleDirCircleScrollView;
+			productName = DoubleDirCircleScrollView;
+			productReference = 18E6E8451CF6A32D0081C108 /* DoubleDirCircleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E6E83D1CF6A32D0081C108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCH;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18E6E8441CF6A32D0081C108 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 18E6E8401CF6A32D0081C108 /* Build configuration list for PBXProject "DoubleDirCircleScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E6E83C1CF6A32D0081C108;
+			productRefGroup = 18E6E8461CF6A32D0081C108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E6E8441CF6A32D0081C108 /* DoubleDirCircleScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E6E8431CF6A32D0081C108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E6E85B1CF6A32D0081C108 /* LaunchScreen.storyboard in Resources */,
+				18E6E8581CF6A32D0081C108 /* Assets.xcassets in Resources */,
+				18E6E8531CF6A32D0081C108 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E6E8411CF6A32D0081C108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188D32F01CF6C5A300537971 /* LCHCircleView.m in Sources */,
+				188D33291CF6E83A00537971 /* UIColor+LCHRandomColor.m in Sources */,
+				18E6E8561CF6A32D0081C108 /* DoubleDirCircleScrollView.xcdatamodeld in Sources */,
+				18E6E8501CF6A32D0081C108 /* ViewController.m in Sources */,
+				18E6E84D1CF6A32D0081C108 /* AppDelegate.m in Sources */,
+				18E6E84A1CF6A32D0081C108 /* main.m in Sources */,
+				188D332E1CF8363B00537971 /* LCHPageControl.m in Sources */,
+				188D32F61CF6CD2900537971 /* LCHCircleCell.m in Sources */,
+				188D332A1CF6E83A00537971 /* UIView+LCHProperty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18E6E8511CF6A32D0081C108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E6E8521CF6A32D0081C108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E6E8591CF6A32D0081C108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E6E85A1CF6A32D0081C108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E6E85D1CF6A32D0081C108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E6E85E1CF6A32D0081C108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E6E8601CF6A32D0081C108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DoubleDirCircleScrollView/Common.pch;
+				INFOPLIST_FILE = DoubleDirCircleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Haima.DoubleDirCircleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18E6E8611CF6A32D0081C108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DoubleDirCircleScrollView/Common.pch;
+				INFOPLIST_FILE = DoubleDirCircleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Haima.DoubleDirCircleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E6E8401CF6A32D0081C108 /* Build configuration list for PBXProject "DoubleDirCircleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E6E85D1CF6A32D0081C108 /* Debug */,
+				18E6E85E1CF6A32D0081C108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E6E85F1CF6A32D0081C108 /* Build configuration list for PBXNativeTarget "DoubleDirCircleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E6E8601CF6A32D0081C108 /* Debug */,
+				18E6E8611CF6A32D0081C108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18E6E8541CF6A32D0081C108 /* DoubleDirCircleScrollView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18E6E8551CF6A32D0081C108 /* DoubleDirCircleScrollView.xcdatamodel */,
+			);
+			currentVersion = 18E6E8551CF6A32D0081C108 /* DoubleDirCircleScrollView.xcdatamodel */;
+			path = DoubleDirCircleScrollView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18E6E83D1CF6A32D0081C108 /* Project object */;
+}
